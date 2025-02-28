@@ -8,3 +8,10 @@
 
 使用ツール：android studio
 
+# for_windows
+
+4年越しに修正したり、調整したりしたくなったので、、  
+
+使用ライブラリ：https://dxlib.xsrv.jp/DxLib/DxLib_VC3_24d.zip  
+
+使用ツール：visual studio 2022  
