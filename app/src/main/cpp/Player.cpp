@@ -97,13 +97,21 @@ MyS32 CPlayer::Update()
     }
 
     // 移動
+#if defined PLATFORM_WINDOWS
+    bool isTouch = (DxLib::GetMouseInput() & MOUSE_INPUT_LEFT) != 0;
+    if (!isTouch) { return k_Success; }
+    MyInt posX = 0, posY = 0;
+    MyS32 result = DxLib::GetMousePoint(&posX, &posY);
+    if (result == -1) { return k_Success; }
+    m_PosX = posX; m_PosY = posY;
+#elif defined PLATFORM_LINUX
     MyS32 touchNum = DxLib::GetTouchInputNum();
     if (touchNum <= 0) { return k_Success; }
     MyInt posX = 0, posY = 0;
     MyS32 result = DxLib::GetTouchInput(touchNum - 1, &posX, &posY, nullptr, nullptr);
     if (result == -1) { return k_Success; }
     m_PosX = posX; m_PosY = posY;
-
+#endif
     return k_Success;
 }
 

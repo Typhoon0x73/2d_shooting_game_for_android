@@ -51,7 +51,7 @@ namespace Shooting2D
     using SceneChangerService = CServiceLocator<ISceneChanger>;
 
     /*! エミッターの登録名 */
-    constexpr LPMyS8 k_EmitterBoardName[] =
+    constexpr LPKMyS8 k_EmitterBoardName[] =
     {
             "Hit",
             "Explosion",

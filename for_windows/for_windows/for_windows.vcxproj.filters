@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Animation">
+      <UniqueIdentifier>{42fb9f05-a256-42c8-9957-3507277058a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Background">
+      <UniqueIdentifier>{4a796156-09b9-430c-9f85-b97a7d7cc65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Bullet">
+      <UniqueIdentifier>{14cbd4d0-eafb-45c8-b2e8-8cee6f606a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Button">
+      <UniqueIdentifier>{f75ff53d-8a90-4d69-bf36-8d34d9491906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{98ae43cb-c838-4bd8-88ec-8200836abdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Game">
+      <UniqueIdentifier>{0c8bf9f0-3aff-4757-affe-a6a983620b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Clear">
+      <UniqueIdentifier>{878915c4-089b-45c7-b2fd-befa19ad7656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{4fdc6203-bdc5-4428-a34a-91efb496bac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{3bdb6616-6841-49f9-8153-4c3101035592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{d754d5e4-abd2-4f6f-aa58-1a44f412615f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{d93452c0-073e-41b7-aa26-e7b923bb5e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound">
+      <UniqueIdentifier>{7831fd79-ec6b-4d08-a3f6-70097c7c399e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mission">
+      <UniqueIdentifier>{04684c2d-4fed-42c2-a433-a2125c534e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Move">
+      <UniqueIdentifier>{af80ca7f-c143-462a-a692-5de8edd0de1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\GameOver">
+      <UniqueIdentifier>{4f357679-38bb-43ad-8af1-a78f89605c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Blackboad">
+      <UniqueIdentifier>{a154a632-fa68-4e20-b38d-396f9a4410dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{98b13af3-e652-4285-83b8-44d43a1b2daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Random">
+      <UniqueIdentifier>{8eedfbd3-4721-4af8-b02d-e2037ca434b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{bc9ff68a-be37-4ba5-9980-77d13b83e7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score">
+      <UniqueIdentifier>{66d58a38-ea4d-47bd-9e4d-39e02622f202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{b3d59700-42f2-4ec1-a6e1-badb3b59e551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Turret">
+      <UniqueIdentifier>{176124f4-9b77-414c-8843-99bea560b519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject">
+      <UniqueIdentifier>{79f25f02-1f95-4259-8fa7-98f690a37fd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Animation.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\AnimationList.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Animator.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\BackGround.cpp">
+      <Filter>ソース ファイル\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Bullet.cpp">
+      <Filter>ソース ファイル\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\BulletHoming.cpp">
+      <Filter>ソース ファイル\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Button.cpp">
+      <Filter>ソース ファイル\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\ButtonUI.cpp">
+      <Filter>ソース ファイル\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\ClearScene.cpp">
+      <Filter>ソース ファイル\Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Effect.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\EnemyManager.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\EnemyPlacement.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\GameApplication.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\GameScene.cpp">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\MoveCenterReturn.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\MoveDeadOrAlive.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\MoveSideReflect.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\MoveSimple.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\MoveTarget.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\OverScene.cpp">
+      <Filter>ソース ファイル\Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\TurretArray.cpp">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\TurretHoming.cpp">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\TurretSimple.cpp">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\src\main\cpp\GameObject.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\app\src\main\cpp\Animation.h">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\AnimationList.h">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Animator.h">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\BackGround.h">
+      <Filter>ソース ファイル\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Bullet.h">
+      <Filter>ソース ファイル\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\BulletHoming.h">
+      <Filter>ソース ファイル\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Button.h">
+      <Filter>ソース ファイル\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\ButtonUI.h">
+      <Filter>ソース ファイル\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionEnemyBullet.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionFunction.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionPlayerBullet.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionPlayerEnemy.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\ClearScene.h">
+      <Filter>ソース ファイル\Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Common.h">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Effect.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\EffectEmitter.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyManager.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyPlacement.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyPlacementCreator.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\ExplosionEffectEmitter.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\GameApplication.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\GameDefine.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\GameScene.h">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\GameSEController.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\HitEffectEmitter.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Mission.h">
+      <Filter>ソース ファイル\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MissionFlag.h">
+      <Filter>ソース ファイル\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MissionHideAllEnemy.h">
+      <Filter>ソース ファイル\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MissionPlayerDead.h">
+      <Filter>ソース ファイル\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MissionUI.h">
+      <Filter>ソース ファイル\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Move.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCenterReturn.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreator.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType1.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType2.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType3.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType4.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveDeadOrAlive.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveSideReflect.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveSimple.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\MoveTarget.h">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\OverScene.h">
+      <Filter>ソース ファイル\Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Blackboard.h">
+      <Filter>ソース ファイル\Blackboad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\ParameterMap.h">
+      <Filter>ソース ファイル\Blackboad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Random.h">
+      <Filter>ソース ファイル\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\RandomDevice.h">
+      <Filter>ソース ファイル\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\RandomUtility.h">
+      <Filter>ソース ファイル\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChangeEffect.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChangeFade.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChanger.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneCreator.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SceneRegister.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SEController.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Singleton.h">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Score.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\ScoreUI.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Stage1EnemyPlacement.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\SingletonBlackboard.h">
+      <Filter>ソース ファイル\Blackboad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TitleScene.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\Turret.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretAccelerator.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretArray.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretContinuous.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounter.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounterReset.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounterWait.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreator.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType1.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType2.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType3.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType4.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType5.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeNearEnemyHoming.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeStraight.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeThreeWay.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretDecorator.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretFixedPointer.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretFrameTimer.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretHoming.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretOffsetRotater.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretPlayerLockon.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretPlayerPointer.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRandomPointer.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRandomRotater.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRotater.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretSimple.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretTranslater.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\TurretWait.h">
+      <Filter>ソース ファイル\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\src\main\cpp\GameObject.h">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

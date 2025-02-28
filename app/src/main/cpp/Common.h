@@ -6,15 +6,40 @@
 #ifndef COMMON_H
 #define COMMON_H
 
+# if defined(_WIN32) // Windows
+
+#define PLATFORM_WINDOWS
+
+# elif defined(__APPLE__) && defined(__MACH__) // macOS
+
+#define PLATFORM_MAC
+
+# elif defined(__linux__) // Linux
+
+#define PLATFORM_LINUX
+
+# endif
+
+
+/*! LOG　関連 */
+#if defined PLATFORM_WINDOWS
+
+#define MyLOGE(...) ((void)0)
+#define MyLOGD(...) ((void)0)
+
+#elif defined PLATFORM_LINUX
+
 #include <android/log.h>
+
+#define MyLOGE(...) __android_log_print(ANDROID_LOG_ERROR, "TAG", __VA_ARGS__)
+#define MyLOGD(...) __android_log_print(ANDROID_LOG_DEBUG, "TAG", __VA_ARGS__)
+
+#endif
+
 #include <string>
 
 namespace Shooting2D
 {
-
-    /*! LOG　関連 */
-    #define MyLOGE(...) __android_log_print(ANDROID_LOG_ERROR, "TAG", __VA_ARGS__)
-    #define MyLOGD(...) __android_log_print(ANDROID_LOG_DEBUG, "TAG", __VA_ARGS__)
 
     /*! 各型名を置き換え */
     using MyS8        = char;

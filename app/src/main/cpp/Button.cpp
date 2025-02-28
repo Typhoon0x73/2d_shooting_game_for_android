@@ -39,6 +39,17 @@ CButton::~CButton()
 *******************************************************************************/
 MyBool CButton::IsPress() noexcept
 {
+#if defined PLATFORM_WINDOWS
+
+    bool isMouseLeftPress = ((DxLib::GetMouseInput() & MOUSE_INPUT_LEFT) != 0);
+    if (!isMouseLeftPress) { return false; }
+    MyInt posX = 0, posY = 0;
+    MyS32 result = DxLib::GetMousePoint(&posX, &posY);
+    if (result == -1) { return false; }
+    m_PrevX = posX; m_PrevY = posY;
+    return (m_Left <= posX && m_Top <= posY && m_Right >= posX && m_Bottom >= posY);
+
+#elif defined PLATFORM_LINUX
     MyS32 touchNum = DxLib::GetTouchInputNum();
     if (touchNum <= 0) { return false; }
     MyInt posX = 0, posY = 0;
@@ -46,6 +57,7 @@ MyBool CButton::IsPress() noexcept
     if (result == -1) { return false; }
     m_PrevX = posX; m_PrevY = posY;
     return (m_Left <= posX && m_Top <= posY && m_Right >= posX && m_Bottom >= posY);
+#endif
 }
 
 /******************************************************************************/

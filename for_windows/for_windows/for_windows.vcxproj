@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{caed9de7-de2f-4697-88fe-c1f97203d305}</ProjectGuid>
+    <RootNamespace>forwindows</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\app\src\main\cpp;D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)\..\..\app\src\main\cpp;D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\app\src\main\cpp;D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir)\..\..\app\src\main\cpp;D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\DxLib\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\app\src\main\cpp\Animation.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\AnimationList.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Animator.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\BackGround.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Bullet.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\BulletHoming.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Button.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\ButtonUI.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\ClearScene.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Effect.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Enemy.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\EnemyManager.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\EnemyPlacement.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\GameApplication.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\GameObject.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\GameScene.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\MoveCenterReturn.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\MoveDeadOrAlive.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\MoveSideReflect.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\MoveSimple.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\MoveTarget.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\OverScene.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\Player.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\TitleScene.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\TurretArray.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\TurretHoming.cpp" />
+    <ClCompile Include="..\..\app\src\main\cpp\TurretSimple.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\app\src\main\cpp\Animation.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\AnimationList.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Animator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\BackGround.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Blackboard.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Bullet.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\BulletHoming.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Button.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\ButtonUI.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\ClearScene.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionEnemyBullet.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionFunction.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionPlayerBullet.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\CollisionPlayerEnemy.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Common.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Effect.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\EffectEmitter.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Enemy.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyManager.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyPlacement.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\EnemyPlacementCreator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\ExplosionEffectEmitter.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\GameApplication.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\GameDefine.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\GameObject.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\GameScene.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\GameSEController.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\HitEffectEmitter.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Mission.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MissionFlag.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MissionHideAllEnemy.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MissionPlayerDead.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MissionUI.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Move.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCenterReturn.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType1.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType2.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType3.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveCreatorType4.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveDeadOrAlive.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveSideReflect.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveSimple.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\MoveTarget.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\OverScene.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\ParameterMap.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Player.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Random.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\RandomDevice.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\RandomUtility.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Scene.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChangeEffect.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChangeFade.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneChanger.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneCreator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneManager.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SceneRegister.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Score.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\ScoreUI.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SEController.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Singleton.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\SingletonBlackboard.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Stage1EnemyPlacement.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TitleScene.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\Turret.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretAccelerator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretArray.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretContinuous.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounter.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounterReset.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCounterWait.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType1.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType2.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType3.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType4.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorType5.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeNearEnemyHoming.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeStraight.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretCreatorTypeThreeWay.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretDecorator.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretFixedPointer.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretFrameTimer.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretHoming.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretOffsetRotater.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretPlayerLockon.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretPlayerPointer.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRandomPointer.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRandomRotater.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretRotater.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretSimple.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretTranslater.h" />
+    <ClInclude Include="..\..\app\src\main\cpp\TurretWait.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
